@@ -1,0 +1,80 @@
+body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
+
+header h1 {
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 5rem;
+    background-color: gray;
+    padding: 1.5rem;
+}
+
+nav a {
+    text-decoration: none;
+    color: rgb(31, 190, 31);
+    font-size: x-large;
+    padding: 0.5rem;
+}
+
+nav a:hover {
+    background-color: black;
+    border-radius: 0.5rem;
+}
+
+/****** extra ******/
+/* section */
+section {
+    margin: 5rem;
+    text-align: center;
+    font-weight: bold;
+}
+
+/* form */
+form {
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+fieldset {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: fit-content;
+}
+
+fieldset * {
+    margin: 0.25rem;
+}
+
+legend {
+    text-align: center;
+}
+
+input,
+textarea {
+    width: 25rem;
+}
+
+input[type="submit"] {
+    width: 10rem;
+    margin: 1rem 0 1rem 0;
+    background-color: rgb(31, 190, 31);
+    border-radius: 0.5rem;
+    cursor: pointer;
+    font-size: large;
+}
+
+/* footer */
+footer {
+    text-align: center;
+    margin-top: 5rem;
+}
